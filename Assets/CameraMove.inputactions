@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "CameraMove",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "d29e3352-8727-4d3f-bd86-1e5c042cd28c",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "2d1e7b73-a650-4426-ab2f-2a397d4cbaed",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f92cd923-5750-47b5-9fcd-c1063473ab46",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
